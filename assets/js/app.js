@@ -55,8 +55,10 @@ class DataLoader {
             return data;
         } catch (error) {
             console.error('Error loading data:', error);
-            // Return mock data if file doesn't exist yet
-            return this.getMockData();
+            // Use mock data if file doesn't exist or CORS blocks it
+            const mockData = this.getMockData();
+            state.data = mockData;
+            return mockData;
         }
     }
 
@@ -359,14 +361,20 @@ class TimelineRenderer {
 
         this.svg.appendChild(group);
 
-        // Animate in
-        gsap.from(group, {
-            scale: 0,
+        // Set initial state (invisible and scaled down)
+        gsap.set(group, {
             opacity: 0,
+            scale: 0,
+            transformOrigin: 'center center'
+        });
+
+        // Animate in with explicit fromTo for reliability
+        gsap.to(group, {
+            opacity: 1,
+            scale: 1,
             duration: 0.5,
             delay: 1.4 + (index * 0.1),
-            ease: 'back.out(1.7)',
-            svgOrigin: `${x} ${y}`
+            ease: 'back.out(1.7)'
         });
     }
 }
