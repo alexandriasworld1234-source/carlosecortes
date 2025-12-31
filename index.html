@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive timeline showcasing Dr. Carlos E. Cortés' 57-year career in multicultural education, diversity scholarship, and creative works spanning 1970-2025.">
+    <title>Dr. Carlos E. Cortés - Annotated Bibliography Timeline</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Loading Timeline...</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">
+                <span class="title-primary">Dr. Carlos E. Cortés</span>
+                <span class="title-secondary">Annotated Bibliography</span>
+            </h1>
+            <nav class="header-nav">
+                <button class="nav-btn" id="btn-about" aria-label="About Dr. Cortés">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span>About</span>
+                </button>
+                <button class="nav-btn" id="btn-search" aria-label="Search works">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span>Search</span>
+                </button>
+                <button class="nav-btn" id="btn-filter" aria-label="Filter by category">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                    </svg>
+                    <span>Filter</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Stats Panel -->
+    <aside class="stats-panel">
+        <div class="stat-item">
+            <div class="stat-number" data-target="57">0</div>
+            <div class="stat-label">Years Active</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" data-target="400">0</div>
+            <div class="stat-label">Literary Works</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" data-target="15">0</div>
+            <div class="stat-label">Categories</div>
+        </div>
+    </aside>
+
+    <!-- Timeline Container -->
+    <main class="timeline-container">
+        <svg id="timeline-svg" class="timeline-svg" viewBox="0 0 1400 600">
+            <!-- Timeline will be rendered here by JavaScript -->
+        </svg>
+    </main>
+
+    <!-- Decade Navigation -->
+    <nav class="decade-nav" aria-label="Quick decade navigation">
+        <!-- Dynamically populated -->
+    </nav>
+
+    <!-- Modals -->
+
+    <!-- Biography Modal -->
+    <div id="modal-biography" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-container modal-large">
+            <button class="modal-close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <div class="bio-header">
+                    <div class="bio-photo">
+                        <img src="assets/images/carlos-cortes.jpg" alt="Dr. Carlos E. Cortés" onerror="this.style.display='none'">
+                    </div>
+                    <div class="bio-info">
+                        <h2 class="bio-name">Dr. Carlos E. Cortés</h2>
+                        <p class="bio-title">Edward A. Dickson Emeritus Professor of History</p>
+                        <p class="bio-institution">University of California, Riverside</p>
+                    </div>
+                </div>
+                <div class="bio-content" id="bio-content">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Decade Modal -->
+    <div id="modal-decade" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-container modal-xlarge">
+            <button class="modal-close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <div class="decade-header">
+                    <h2 class="decade-title" id="decade-title"></h2>
+                    <p class="decade-theme" id="decade-theme"></p>
+                </div>
+                <div class="decade-stats" id="decade-stats"></div>
+                <div class="works-grid" id="works-grid">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Detail Modal -->
+    <div id="modal-work" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-container modal-medium">
+            <button class="modal-close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-body" id="work-detail">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div id="modal-search" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-container modal-medium">
+            <button class="modal-close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                        <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input type="search" id="search-input" class="search-input" placeholder="Search by title, category, year..." aria-label="Search works">
+                    </div>
+                    <div class="search-results" id="search-results">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filter Modal -->
+    <div id="modal-filter" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-container modal-small">
+            <button class="modal-close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <h2 class="filter-title">Filter by Category</h2>
+                <div class="filter-categories" id="filter-categories">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grain texture overlay -->
+    <div class="grain-overlay"></div>
+
+    <!-- Main Application Script -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

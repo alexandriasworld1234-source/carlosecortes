@@ -1,0 +1,351 @@
+{
+  "biography": {
+    "name": "Dr. Carlos E. Cortés",
+    "title": "Edward A. Dickson Emeritus Professor of History",
+    "institution": "University of California, Riverside",
+    "birthYear": 1934,
+    "careerStart": 1968,
+    "totalWorks": "400+",
+    "bio": "Pioneering figure in multicultural education, ethnic studies, and diversity scholarship with a career spanning over five decades. Dr. Cortés has produced more than four hundred literary works covering Chicano studies, Latin American history, diversity in media, intercultural communication, and anti-racism education. His career includes groundbreaking scholarship, creative writing, and extensive consulting work for media and educational institutions.",
+    "awards": [
+      {
+        "year": 1974,
+        "award": "Hubert Herring Memorial Award",
+        "description": "Pacific Coast Council on Latin American Studies for Gaúcho Politics in Brazil"
+      },
+      {
+        "year": 2009,
+        "award": "NAACP Image Award",
+        "description": "Creative/Cultural Advisory work for Nickelodeon"
+      },
+      {
+        "year": 2017,
+        "award": "Honorable Mention - International Latino Book Awards",
+        "description": "Best Book of Poetry for Fourth Quarter: Reflections of a Cranky Old Man"
+      },
+      {
+        "year": 2020,
+        "award": "Constantine Panunzio Distinguished Emeriti Award",
+        "description": "University of California (first faculty member from UCR to receive this honor)"
+      }
+    ]
+  },
+  "decades": {
+    "1970s": {
+      "theme": "Chicano Studies Pioneer",
+      "totalWorks": 4,
+      "categories": {
+        "Articles": [
+          {
+            "title": "Chicanos Chapter",
+            "year": 1973,
+            "category": "Articles",
+            "description": "Contribution to formative book on multicultural education",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Widely adopted for teacher training"
+          }
+        ],
+        "Books - Scholarly": [
+          {
+            "title": "Gaúcho Politics in Brazil: The Politics of Rio Grande do Sul 1930-1964",
+            "year": 1974,
+            "category": "Books - Scholarly",
+            "description": "Scholarly monograph on regional Brazilian politics",
+            "awards": "Hubert Herring Memorial Award of Pacific Coast Council on Latin American Studies",
+            "isbn": "082630303X",
+            "url": "Amazon (used)",
+            "significance": "Based on doctoral dissertation"
+          },
+          {
+            "title": "Three Perspectives on Ethnicity: Blacks Chicanos and Native Americans",
+            "year": 1976,
+            "category": "Books - Scholarly",
+            "description": "Comparative examination of ethnicity from perspectives of three major American ethnic groups",
+            "awards": null,
+            "isbn": "0399503692",
+            "url": "Amazon (used)",
+            "significance": "Academic work in comparative ethnic studies"
+          }
+        ],
+        "Curriculum Development": [
+          {
+            "title": "UCR Diversity Graduation Requirement",
+            "year": 1970,
+            "category": "Curriculum Development",
+            "description": "Drafted first diversity graduation requirement for UCR",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Precursor to diversity requirements at one-third of US colleges"
+          }
+        ]
+      }
+    },
+    "1980s": {
+      "theme": "Multicultural Education Leader",
+      "totalWorks": 2,
+      "categories": {
+        "Books - Scholarly": [
+          {
+            "title": "Beyond Language: Social and Cultural Factors in Schooling Language Minority Students",
+            "year": 1980,
+            "category": "Books - Scholarly",
+            "description": "Book on bilingual/multicultural education and language minority students",
+            "awards": null,
+            "isbn": "0897550242",
+            "url": "Amazon",
+            "significance": "Important work in bilingual education"
+          }
+        ],
+        "Books - Edited Works": [
+          {
+            "title": "Hispanics in the United States Series",
+            "year": 1980,
+            "category": "Books - Edited Works",
+            "description": "Comprehensive series on Hispanic experiences in United States",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Major reference series"
+          }
+        ]
+      }
+    },
+    "1990s": {
+      "theme": "Media & Diversity Scholar",
+      "totalWorks": 1,
+      "categories": {
+        "Videos": [
+          {
+            "title": "Video Journal of Education: Diversity in the Classroom",
+            "year": 1994,
+            "category": "Videos",
+            "description": "Educational training video on diversity in classroom settings",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Widely used in teacher training"
+          }
+        ]
+      }
+    },
+    "2000s": {
+      "theme": "Creative Consulting",
+      "totalWorks": 3,
+      "categories": {
+        "Books - Scholarly": [
+          {
+            "title": "The Children Are Watching: How the Media Teach about Diversity",
+            "year": 2000,
+            "category": "Books - Scholarly",
+            "description": "Analysis of how media educate about diversity issues",
+            "awards": null,
+            "isbn": "0807739375",
+            "url": "Amazon",
+            "significance": "Influential book widely cited in diversity education field"
+          },
+          {
+            "title": "The Making — and Remaking — of a Multiculturalist",
+            "year": 2002,
+            "category": "Books - Scholarly",
+            "description": "Autobiographical exploration of development as multiculturalist",
+            "awards": null,
+            "isbn": "0807742511",
+            "url": "Amazon",
+            "significance": "Important contribution to educational literature"
+          }
+        ],
+        "Administrative Work": [
+          {
+            "title": "Building a More Inclusive Riverside Community Statement",
+            "year": 2001,
+            "category": "Administrative Work",
+            "description": "Inclusive community statement for City of Riverside",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Adopted by Mayor's Multicultural Forum June 2001"
+          }
+        ]
+      }
+    },
+    "2010s": {
+      "theme": "Creative Works & Memoirs",
+      "totalWorks": 7,
+      "categories": {
+        "Articles": [
+          {
+            "title": "Beyond Free Speech: Fostering Civic Engagement at the Intersection of Diversity and Expression",
+            "year": 2019,
+            "category": "Articles",
+            "description": "Fellowship research examining intersection of diversity and speech on U.S. college campuses",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "UC National Center for Free Speech and Civic Engagement fellowship project"
+          },
+          {
+            "title": "Intercultural Humor Essay",
+            "year": 2015,
+            "category": "Articles",
+            "description": "Essay on intercultural humor",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Published in major reference work"
+          }
+        ],
+        "Biography/Memoir": [
+          {
+            "title": "Rose Hill: An Intermarriage before Its Time",
+            "year": 2012,
+            "category": "Biography/Memoir",
+            "description": "Memoir about growing up in interracial interfaith family in Kansas City",
+            "awards": null,
+            "isbn": "1597141887",
+            "url": "Amazon",
+            "significance": "Addresses navigating racial ethnic and religious fault lines"
+          }
+        ],
+        "Books - Poetry": [
+          {
+            "title": "Fourth Quarter: Reflections of a Cranky Old Man",
+            "year": 2016,
+            "category": "Books - Poetry",
+            "description": "First book of poetry reflecting on life as octogenarian",
+            "awards": "Honorable mention for best book of poetry in 2017 International Latino Book Awards",
+            "isbn": null,
+            "url": "Amazon",
+            "significance": "Award-winning poetry collection"
+          }
+        ],
+        "Books - Edited Works": [
+          {
+            "title": "Multicultural America: A Multimedia Encyclopedia",
+            "year": 2013,
+            "category": "Books - Edited Works",
+            "description": "Comprehensive multimedia encyclopedia on historical and contemporary multicultural America issues",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Major reference work in multicultural studies"
+          }
+        ],
+        "Teaching Materials": [
+          {
+            "title": "Inclusive Diversity and Abundant Speech: An Intersection of Values at Aspirational University (Simulation)",
+            "year": 2018,
+            "category": "Teaching Materials",
+            "description": "Educational simulation for civic engagement around diversity-speech intersection",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Active teaching tool"
+          }
+        ],
+        "Administrative Work": [
+          {
+            "title": "Carlos E. Cortés Diversity and Inclusion Award",
+            "year": 2016,
+            "category": "Administrative Work",
+            "description": "Annual award established by City of Riverside to honor resident contributions to diversity",
+            "awards": "Named in honor of Carlos E. Cortés",
+            "isbn": null,
+            "url": null,
+            "significance": "First award of its kind in Riverside"
+          }
+        ]
+      }
+    },
+    "2020s": {
+      "theme": "Anti-Racism & Renewal",
+      "totalWorks": 7,
+      "categories": {
+        "Articles": [
+          {
+            "title": "Renewing Multicultural Education: An Ancient Mariner's Manifesto",
+            "year": 2025,
+            "category": "Articles",
+            "description": "Keynote address from 2024 National Association for Multicultural Education conference discussing three bad habits in multicultural education and how to renew the field",
+            "awards": null,
+            "isbn": "10.1080/15210960.2025.2558492",
+            "url": "https://doi.org/10.1080/15210960.2025.2558492",
+            "significance": "Adaptation of 2024 NAME conference keynote in Anaheim CA"
+          }
+        ],
+        "Blogs": [
+          {
+            "title": "Renewing Diversity Part 9: Rediscovering My Professional Journey",
+            "year": 2025,
+            "category": "Blogs",
+            "description": "Autobiographical reflection on professional career",
+            "awards": null,
+            "isbn": null,
+            "url": "https://americandiversityreport.com/renewing-diversity-part-9-rediscovering-my-professional-journey-by-carlos-cortes/",
+            "significance": "Part of ongoing series"
+          }
+        ],
+        "Plays": [
+          {
+            "title": "A Conversation with Alana: One Boy's Multicultural Rite of Passage",
+            "year": 2022,
+            "category": "Plays",
+            "description": "One-person autobiographical play about growing up as son of Mexican Catholic immigrant father and American Jewish mother in post-WWII Kansas City",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Widely performed theatrical work"
+          }
+        ],
+        "Novels": [
+          {
+            "title": "Scouts' Honor",
+            "year": 2025,
+            "category": "Novels",
+            "description": "Novel about death of Boy Scout Harry Vincent at Boy Scout Camp Matulia in southwestern Missouri",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "First novel by Cortés"
+          }
+        ],
+        "Consulting Projects": [
+          {
+            "title": "DreamWorks Animation: Puss in Boots The Last Wish",
+            "year": 2022,
+            "category": "Consulting Projects",
+            "description": "Cultural consulting for animated feature film",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Major studio animation project"
+          }
+        ],
+        "Curriculum Development": [
+          {
+            "title": "Suggested Basic Curriculum Principles for Ethnic Studies",
+            "year": 2021,
+            "category": "Curriculum Development",
+            "description": "Proposed set of basic principles for high school Ethnic Studies curriculum",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Eight principles adapted into outcomes on pages 16-20 of final Model Curriculum adopted March 2021"
+          },
+          {
+            "title": "City of Riverside Anti-Racism Vision Statement",
+            "year": 2020,
+            "category": "Curriculum Development",
+            "description": "Two-page vision statement on anti-racism for City of Riverside",
+            "awards": null,
+            "isbn": null,
+            "url": null,
+            "significance": "Adopted 6-1 by Riverside City Council October 20 2020"
+          }
+        ]
+      }
+    }
+  }
+}

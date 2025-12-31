@@ -1,0 +1,12 @@
+{
+  "name": "cortes-timeline-builder",
+  "version": "1.0.0",
+  "description": "Data builder for Dr. Carlos E. Cortés timeline",
+  "main": "build-data.js",
+  "scripts": {
+    "build": "node build-data.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
